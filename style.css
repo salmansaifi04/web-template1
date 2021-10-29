@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.new{
+    float: left;
+}
+
+.new2{
+    float: left;
+    margin-left: 1%;
+}
+
+.clr{
+    clear: both;
+}
+
+/* company name section start */
+
+.company-name{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.company-name a{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    line-height: 100px;
+}
+
+.color1{
+    color: #63B8BD;
+}
+
+.color2{
+    color: #F54785;
+}
+
+
+/* company name section end */
+
+
+/* nav section start */
+.nav{
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    background-color:  #F54785;
+    font-size: 16px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-right: .2%;
+    padding: 19px 20px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul .active{
+    background-color: #63B8BD ;
+}
+
+.nav ul li:hover{
+    background-color: #63B8BD ;
+}
+
+/* nav section end */
+
+/* banner section start */
+.banner{
+    position: relative;
+    background-image: url(images/banner1.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-bottom: 17vh;
+}
+
+.products{
+    position: absolute;
+    color: white;
+    top: 58vh;
+    width: 100%;
+    height: 250px;
+}
+
+.pro1{
+    padding: 2%;
+    position: absolute;
+    left: 10%;
+    width: 40%;
+    height: 100%;
+    background-color: #63B8BD;
+}
+
+.pro1 .content{
+    width: 50%;
+}
+
+.pro1 .content p{
+    font-size: 16px;
+    margin-top: 5%;
+}
+
+.pro1 .content h2{
+    margin-top: 10%;
+}
+
+
+.pro2{
+    padding: 2%;
+    position: absolute;
+    right: 10.5%;
+    width: 40%;
+    height: 100%;
+    background-color: #F54785;
+}
+
+
+.pro2 .content{
+    width: 50%;
+}
+
+.pro2 .content p{
+    font-size: 16px;
+    margin-top: 5%;
+}
+
+.pro2 .content h2{
+    margin-top: 10%;
+}
+
+
+
+/* banner section end */
+
+
+/* feature section start */
+.feature{
+    padding: 3% 10%;
+    width: 100%;
+    height: 80vh;
+    background-color: #63B8BD;
+    color: white;
+}
+
+.fhead{
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.top{
+    width: 100%;
+    height: 30vh;
+    padding: 1%;
+}
+
+.top .f1{
+    width: 24.25%;
+    height: 100%;
+    text-align: center;
+}
+
+.bottom{
+    width: 100%;
+    height: 30vh;
+    padding: 1%;
+}
+
+.bottom .f1{
+    width: 24.25%;
+    height: 100%;
+    text-align: center;
+}
+
+
+/* feature section end */
+
+
+
+/* hello section start */
+.hello{
+    width: 100%;
+    height: 68vh;
+    padding: 3% 10%;
+}
+
+.hello h2{
+    color: #63B8BD;
+    margin-bottom: 2%;
+}
+
+.blog1{
+    width: 65%;
+    height: 45vh ;
+}
+
+.image{
+    display: inline-block;
+}
+
+.blog1 h3{
+    color: #63B8BD;
+    margin-bottom: 2%;
+}
+
+.blog1 .con{
+    width: 56%;
+}
+
+.blog2{
+    width: 28%;
+    height: 45vh ;
+}
+
+.blog2 h3{
+    color: #63B8BD;
+    margin-bottom: 3%;
+}
+
+.blog2 p{
+    margin-top: 4%;
+}
+
+.cont1 h3{
+    width: 49%;
+}
+
+/* hello section end */
+
+
+/* testimonail section start */
+.testimonial{
+    position: relative;
+    background-color: #F54785;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    color: white;
+    padding: 2% 10%;
+}
+
+.testimonial h2{
+    margin-bottom: 2%;
+}
+
+.testimonial img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 2%;
+}
+
+.testimonial h3{
+    margin-bottom: 2%;
+}
+
+.testimonial .cir1{
+    position: absolute;
+    background-color: #63B8BD;
+    left: 47%;
+    bottom: 10%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* background-color: white; */
+}
+.testimonial .cir2{
+    position: absolute;
+    left: 49%;
+    bottom: 10%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+.testimonial .cir3{
+    position: absolute;
+    left: 51%;
+    bottom: 10%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+/* testimonail section end */
+
+/* news section start */
+.news{
+    width: 80%;
+    margin: auto;
+    height: 90vh;
+    padding: 3% 0%;
+}
+
+.news h2{
+    text-align: center;
+    margin-bottom: 3%;
+    color: #63B8BD;
+}
+
+.news .size1{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.news .size2{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.news img{
+    margin-bottom: 3%;
+}
+
+.news p{
+    margin-bottom: 3%;
+}
+
+.col1{
+    width: 32.667%;
+}
+
+/* news section end */
+
+/* footer section start */
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    padding: 5% 10%;
+    background-color: #63B8BD;
+}
+
+.footer .col-1{
+    width: 24.25%;
+    height: 30vh;
+    color: white;
+}
+
+.footer h3{
+    margin-bottom: 5%;
+}
+
+.footer ul li{
+    margin-bottom: 8px;
+    list-style: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #96dbdf;
+}
+
+.footer ul li a:hover{
+    color: black;
+}
+
+.footer .icon ul li{
+    display: inline;
+    margin-left: 5%;
+}
+
+.footer .icon ul li a i{
+    color: black;
+}
+
+.footer .icon ul li a .fa-facebook:hover{
+    color: rgb(58, 117, 226);
+}
+.footer .icon ul li a .fa-google-plus-g:hover{
+    color: tomato;
+}
+.footer .icon ul li a .fa-instagram-square:hover{
+    color: rgb(31, 137, 179);
+}
+.footer .icon ul li a .fa-twitter-square:hover{
+    color: rgb(66, 187, 235);
+}
+
+.footer .colr ul li a i{
+    color: white;
+    margin-right: 2%;
+}
+
+.footer .para{
+    color: white;
+}
+
+/* footer section end */
